@@ -8,7 +8,9 @@
     document.body.querySelector('.button-container').addEventListener('click', event => {
         event.preventDefault();
 
-        let endpoint = '/wordlist/en/domains=Music';
+        let element = event.target;
+        let category = element.dataset.category;
+        let endpoint = `/wordlist/en/domains= ${category}`;
 
         $.ajax(proxy + endpoint, {
             method: 'GET',
