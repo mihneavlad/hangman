@@ -1,2 +1,10 @@
 @import '../node_modules/bootstrap/scss/bootstrap.scss';
 @import 'partials/fixed-footer.scss';
+
+main {
+  min-height: 100vh;
+}
+
+.button-container {
+  width: 80vw;
+}

@@ -1,5 +1,5 @@
 {
-  "name": "project-boilerplate-sass",
+  "name": "hangman",
   "version": "1.0.0",
   "description": "Just a simple pratice repo",
   "main": "index.html",
@@ -16,7 +16,7 @@
     "type": "git",
     "url": "git+https://github.com/WebUp-dci-fbw7/jquery-practice.git"
   },
-  "author": "Itamar Givon",
+  "author": "Mihnea Vlad",
   "license": "MIT",
   "bugs": {
     "url": "https://github.com/WebUp-dci-fbw7/jquery-practice/issues"
